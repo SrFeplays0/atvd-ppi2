@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atvd2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Cadastro de perfil de cliente</h2>
+    <form method="get" action="/cadastrarUsuario">
+            <div>
+                <label class="ab" for="name">Nome:</label>
+                <input class="asdwe" type="text" id="name" name="nome" placeholder="informe o nome do cliente" required>
+            </div>
+            <br>
+            <div>
+                <label class="ab" for="areainteresse">Area de interesse:</label>
+                <input class="qwedwe" type="text" id="areainteresse" name="areainteresse" placeholder="informe a area de interesse" required>
+            </div>
+            <br>
+            <div>
+                <label class="ab" for="telefone">Telefone:</label>
+                <input class="jkgfuyk" type="tel" id="telefone" name="telefone" required placeholder="(99) 99999-9999">
+            </div>
+
+            <div>
+                <label for="comentarios"><b>Comentarios</b></label><br>
+                <textarea name="comentarios" id="" cols="50" rows="10" placeholder="Digite o Porque da Area escolhida"></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="reset">Limpar</button>
+                <button type="submit">Gravar</button>
+            </div> 
+    </form>
+</body>
+</html>

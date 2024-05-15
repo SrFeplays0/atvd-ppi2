@@ -1,0 +1,24 @@
+{
+  "name": "atvd-ppi2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrFeplays0/atvd-ppi2.git"
+  },
+  "author": "felipe rodrigues da luz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrFeplays0/atvd-ppi2/issues"
+  },
+  "homepage": "https://github.com/SrFeplays0/atvd-ppi2#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
