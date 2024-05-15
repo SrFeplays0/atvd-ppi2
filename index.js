@@ -8,7 +8,7 @@ var listaUsuario = [];
 
 const app = express();
 
-app.use(express.static(path.join(process,cwd(), 'publico')));
+app.use(express.static(path.join(process.cwd(), 'publico')));
 
 app.use('/cadastrarUsuario',(req,resp)=>{
 
